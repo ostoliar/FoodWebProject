@@ -27,23 +27,18 @@ header {
     letter-spacing: .2px;
 }
 
-.header_top_wrapper__ul li a{
+.header_top_wrapper__ul li a {
     text-decoration: none;
-   
     text-transform: uppercase;
     color: #ffffff;
-    
 }
+
 .header_top_wrapper__ul li {
     list-style-type: none;
 }
 
-
-
-
 .header_top_wrapper__ul li:hover {
     border-bottom: 2px solid #e67e22;
-
 }
 
 .header_top_wrapper_img {
@@ -103,11 +98,9 @@ header {
     color: #ffffff;
 }
 
-
 /* ABOUT US SECTION */
 
-
-.about_us { 
+.about_us {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,9 +110,8 @@ header {
     height: auto;
     margin: auto;
     color: #555;
-    
-    
 }
+
 .about_us__grid_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -136,16 +128,17 @@ header {
     font-size: 250%;
     letter-spacing: .2px;
 }
-.about_us h1:after {
-display: block;
-height: 2px;
-background-color: #e67e22;
-content: " ";
-width: 100px;
-margin: 0 auto;
-margin-top: 30px;
 
+.about_us h1:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
+
 .about_us_paragraph {
     font-family: 'Rajdhani', sans-serif;
     font-family: 'Saira Semi Condensed', sans-serif;
@@ -155,12 +148,13 @@ margin-top: 30px;
     text-rendering: optimizeLegibility;
     margin-bottom: 60px;
 }
+
 .about_us__icon_wrapper i {
- color: #e67e22;
- font-size: 250%;
- margin-bottom: 10px;
- 
+    color: #e67e22;
+    font-size: 250%;
+    margin-bottom: 10px;
 }
+
 .about_us__icon_wrapper p {
     text-align: justify;
     font-family: 'Rajdhani', sans-serif;
@@ -168,6 +162,7 @@ margin-top: 30px;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
 }
+
 .about_us__icon_wrapper {
     display: flex;
     justify-content: center;
@@ -182,4 +177,37 @@ margin-top: 30px;
     font-weight: normal;
 }
 
+.img_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
 
+.img_wrapper__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_wrapper__flex_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_wrapper__flex_top img {
+    width: 20%;
+    height: 200px;
+    transform: scale(1.15);
+    opacity: 0.7;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.img_wrapper__flex_top img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
